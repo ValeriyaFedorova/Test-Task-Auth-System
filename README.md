@@ -24,7 +24,6 @@
 ### 1. Клонирование репозитория
 ```bash
 git clone <repository-url>
-cd auth_system
 ```
 
 ### 2. Создание виртуального окружения
@@ -51,7 +50,7 @@ cp .env.example .env
 
 ### 6. Миграции
 ```bash
-python manage.py makemigrations custom_app
+python manage.py makemigrations custom_auth
 python manage.py migrate
 ```
 
