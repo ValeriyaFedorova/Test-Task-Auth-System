@@ -51,7 +51,7 @@ cp .env.example .env
 
 ### 6. Миграции
 ```bash
-python manage.py makemigrations
+python manage.py makemigrations custom_app
 python manage.py migrate
 ```
 
